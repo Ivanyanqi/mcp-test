@@ -16,12 +16,12 @@ import org.springframework.context.annotation.Bean;
  */
 
 @SpringBootApplication
-public class Application {
+public class McpServerApp {
 
-    private static final Logger logger = LoggerFactory.getLogger(Application.class);
+    private static final Logger logger = LoggerFactory.getLogger(McpServerApp.class);
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(McpServerApp.class, args);
     }
 
     @Bean
