@@ -1,0 +1,11 @@
+# Using spring-ai-starter-mcp-server-webflux
+spring:
+  ai:
+    mcp:
+      server:
+        name: webflux-mcp-server
+        version: 1.0.0
+        type: SYNC  # Recommended for reactive applications
+#        base-url: /mcp
+#        sse-endpoint: /tools
+#        sse-message-endpoint: /mcp/message
